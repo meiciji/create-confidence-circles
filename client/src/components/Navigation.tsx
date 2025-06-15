@@ -79,14 +79,25 @@ const Navigation = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-cream-300 rounded-lg mt-2">
               {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="text-sage-700 hover:text-sage-900 block px-3 py-2 rounded-md text-base font-medium"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.label}
-                </a>
+                item.href.startsWith('#') ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className="text-sage-700 hover:text-sage-900 block px-3 py-2 rounded-md text-base font-medium"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="text-sage-700 hover:text-sage-900 block px-3 py-2 rounded-md text-base font-medium"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
               ))}
               <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 w-full mt-4">
                 Donate
