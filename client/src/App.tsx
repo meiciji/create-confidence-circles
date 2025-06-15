@@ -13,8 +13,12 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Router>
-        <Route path="/" component={Index} />
-        <Route path="*" component={NotFound} />
+        <Route path="/">
+          <Index />
+        </Route>
+        <Route>
+          <NotFound />
+        </Route>
       </Router>
     </TooltipProvider>
   </QueryClientProvider>
