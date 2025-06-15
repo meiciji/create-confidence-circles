@@ -1,29 +1,33 @@
-
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: '#about', label: 'About' },
-    { href: '#programs', label: 'Programs' },
-    { href: '#impact', label: 'Impact' },
-    { href: '#get-involved', label: 'Get Involved' },
-    { href: '#contact', label: 'Contact' }
+    { href: "#about", label: "About" },
+    { href: "#programs", label: "Programs" },
+    { href: "#impact", label: "Impact" },
+    { href: "/our-team", label: "Our Team" },
+    { href: "/blog", label: "Blog" },
+    { href: "#get-involved", label: "Get Involved" },
+    { href: "#contact", label: "Contact" },
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-cream-400/95 backdrop-blur-sm z-50 border-b border-sage-200">
+    <nav className="fixed top-0 w-full bg-white backdrop-blur-sm z-50 border-b border-sage-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-xl font-bold text-sage-800">
-                Confidence through Creation
-              </span>
+              <img
+                src="/public/logo.png"
+                alt="Your Logo"
+                className="h-20 w-auto"
+              />
             </div>
           </div>
 
@@ -31,13 +35,23 @@ const Navigation = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navItems.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="text-sage-700 hover:text-sage-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
-                >
-                  {item.label}
-                </a>
+                item.href.startsWith('#') ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className="text-sage-700 hover:text-sage-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="text-sage-700 hover:text-sage-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  >
+                    {item.label}
+                  </Link>
+                )
               ))}
               <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 ml-4">
                 Donate
@@ -51,7 +65,11 @@ const Navigation = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="bg-sage-100 inline-flex items-center justify-center p-2 rounded-md text-sage-600 hover:text-sage-900 hover:bg-sage-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sage-500"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
