@@ -107,7 +107,8 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- June 24, 2025: Fixed Vercel deployment configuration - resolved TailwindCSS build errors, installed missing dependencies, simplified to static site deployment
 - June 24, 2025: Added Vercel deployment configuration and documentation
-- June 24, 2025: Created podcast page with episode showcase
+- June 24, 2025: Created podcast page "Confidence Conversations" with episode showcase
 - June 24, 2025: Built "The Zine" page featuring student project launches
 - June 24, 2025: Initial setup with team page, blog, and navigation
