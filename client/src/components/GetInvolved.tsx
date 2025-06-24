@@ -7,11 +7,11 @@ const GetInvolved = () => {
       icon: Users,
       title: "Join as a Participant",
       description:
-        "Apply for our Creation Circles, contribute to our Digital Zine, or be featured on our podcast",
+        "Book a call with one of our mentors to help you start our program to confidence.",
       action: (
         <Button className="bg-sage-600 hover:bg-sage-700 text-white">
           <a
-            href="https://tally.so/r/31zda4"
+            href="https://calendly.com/confidencethroughcreation/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full h-full"
@@ -31,7 +31,7 @@ const GetInvolved = () => {
       action: (
         <Button className="bg-mint text-white">
           <a
-            href="https://form.typeform.com/to/zjHidOgm"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full h-full"

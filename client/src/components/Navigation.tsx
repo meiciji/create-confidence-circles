@@ -12,6 +12,7 @@ const Navigation = () => {
     { href: "/#programs", label: "Programs" },
     { href: "/#impact", label: "Impact" },
     { href: "/our-team", label: "Our Team" },
+    { href: "/the-zine", label: "The Zine" },
     { href: "/blog", label: "Blog" },
     { href: "/#get-involved", label: "Get Involved" },
     { href: "/#contact", label: "Contact" },
