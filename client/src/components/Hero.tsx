@@ -132,7 +132,7 @@ const Hero = () => {
                   12
                 </div>
                 <div className="text-mint-700 text-sm font-medium">
-                  Cohorts Completed
+                  Projects Launched
                 </div>
               </div>
             </div>
