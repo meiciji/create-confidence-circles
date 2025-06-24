@@ -1,28 +1,38 @@
-
-import { Mail, Phone, MapPin, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Instagram,
+  Twitter,
+  Linkedin,
+  Youtube,
+} from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
-    { label: 'About Us', href: '#about' },
-    { label: 'Programs', href: '#programs' },
-    { label: 'Impact', href: '#impact' },
-    { label: 'Get Involved', href: '#get-involved' },
-    { label: 'Contact', href: '#contact' }
+    { label: "About Us", href: "/#about" },
+    { label: "Programs", href: "/#programs" },
+    { label: "Impact", href: "/#impact" },
+    { label: "Get Involved", href: "/#get-involved" },
+    { label: "Contact", href: "/#contact" },
   ];
 
   const programs = [
-    { label: 'Creation Circles', href: '#programs' },
-    { label: 'Podcast & Newsletter', href: '#programs' },
-    { label: 'Digital Zine', href: '#programs' },
-    { label: 'Youth Leadership', href: '#get-involved' },
-    { label: 'Mentorship', href: '#get-involved' }
+    { label: "Creation Circles", href: "/#programs" },
+    { label: "Podcast & Newsletter", href: "/#programs" },
+    { label: "Digital Zine", href: "/#programs" },
+    { label: "Youth Leadership", href: "/#get-involved" },
+    { label: "Mentorship", href: "/#get-involved" },
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Youtube, href: '#', label: 'YouTube' }
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/confidencethroughcreation/",
+      label: "Instagram",
+    },
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Youtube, href: "#", label: "YouTube" },
   ];
 
   return (
@@ -36,7 +46,9 @@ const Footer = () => {
               Confidence through Creation
             </h3>
             <p className="text-cream-200 leading-relaxed mb-6">
-              Empowering girls from underrepresented communities to build self-worth and leadership through digital creation, tech, art, business, and media.
+              Empowering girls from underrepresented communities to build
+              self-worth and leadership through digital creation, tech, art,
+              business, and media.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => {
@@ -95,16 +107,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-sage-400" />
-                <span className="text-cream-200">hello@confidencethroughcreation.org</span>
+                <span className="text-cream-200">
+                  confidencethroughcreation@gmail.com
+                </span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-sage-400" />
-                <span className="text-cream-200">(555) 123-4567</span>
+                <span className="text-cream-200">(404) 312-1515</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-sage-400 mt-1" />
                 <span className="text-cream-200">
-                  Serving communities nationwide<br />
+                  Serving communities nationwide
+                  <br />
                   through virtual programming
                 </span>
               </div>
@@ -135,16 +150,25 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-sage-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <div className="text-cream-300 text-sm mb-4 sm:mb-0">
-            © 2024 Confidence through Creation. All rights reserved.
+            © 2025 Confidence through Creation. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
-            <a href="#" className="text-cream-300 hover:text-cream-100 transition-colors">
+            <a
+              href="#"
+              className="text-cream-300 hover:text-cream-100 transition-colors"
+            >
               Privacy Policy
             </a>
-            <a href="#" className="text-cream-300 hover:text-cream-100 transition-colors">
+            <a
+              href="#"
+              className="text-cream-300 hover:text-cream-100 transition-colors"
+            >
               Terms of Service
             </a>
-            <a href="#" className="text-cream-300 hover:text-cream-100 transition-colors">
+            <a
+              href="#"
+              className="text-cream-300 hover:text-cream-100 transition-colors"
+            >
               Accessibility
             </a>
           </div>

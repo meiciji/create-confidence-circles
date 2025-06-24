@@ -82,17 +82,20 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-slide-in-up"
             style={{ animationDelay: "0.6s" }}
           >
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-sage-600 to-sage-700 hover:from-sage-700 hover:to-sage-800 text-cream-100 px-10 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group"
-            >
-              Join Our Programs
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
-            </Button>
+            <a href="#get-involved" className="w-full sm:w-auto">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-sage-600 to-sage-700 hover:from-sage-700 hover:to-sage-800 text-cream-100 px-10 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group w-full"
+              >
+                Join Our Programs
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
+              </Button>
+            </a>
+
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-sage-600 text-sage-600 hover:bg-sage-50 px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 bg-white/90 backdrop-blur-sm"
+              className="border-2 border-sage-600 text-sage-600 hover:bg-sage-50 px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 bg-white/90 backdrop-blur-sm w-full sm:w-auto"
             >
               Learn More
             </Button>

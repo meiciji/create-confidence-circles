@@ -8,10 +8,12 @@ import Index from "./pages/Index";
 import OurTeam from "./pages/OurTeam";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
+      <ScrollToTop />
       <TooltipProvider>
         <Toaster />
         <Sonner />
