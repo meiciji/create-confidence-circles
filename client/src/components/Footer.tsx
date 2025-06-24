@@ -18,9 +18,9 @@ const Footer = () => {
   ];
 
   const programs = [
-    { label: "Creation Circles", href: "/#programs" },
-    { label: "Podcast & Newsletter", href: "/#programs" },
-    { label: "Digital Zine", href: "/#programs" },
+    { label: "Meet a Mentor", href: "/#get-involved" },
+    { label: "Podcast & Newsletter", href: "/podcast" },
+    { label: "Digital Zine", href: "/the-zine" },
     { label: "Youth Leadership", href: "/#get-involved" },
     { label: "Mentorship", href: "/#get-involved" },
   ];

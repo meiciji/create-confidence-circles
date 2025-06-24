@@ -45,7 +45,7 @@ const GetInvolved = () => {
     },
     {
       icon: Mic,
-      title: "Youth Leadership Team",
+      title: "Internship Opportunities",
       description:
         "Join our core team of ~15 student leaders helping run programs and create content",
       action: (

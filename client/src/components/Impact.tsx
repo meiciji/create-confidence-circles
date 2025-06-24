@@ -21,8 +21,9 @@ const Impact = () => {
     {
       icon: Target,
       number: "12",
-      label: "Cohorts Completed",
-      description: "Virtual Creation Circles with measurable outcomes",
+      label: "States Reached",
+      description:
+        "Our work has empowered girls nationally to start their own projects",
       color: "mint",
     },
     {
