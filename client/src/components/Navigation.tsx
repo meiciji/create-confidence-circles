@@ -48,11 +48,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img
-                src="/public/logo.png"
-                alt="Your Logo"
-                className="h-20 w-auto"
-              />
+              <img src="/logo.png" alt="Your Logo" className="h-20 w-auto" />
             </div>
           </div>
 
