@@ -127,26 +127,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Signup */}
-        <div className="border-t border-sage-800 pt-8 mb-8">
-          <div className="max-w-md mx-auto text-center">
-            <h4 className="text-lg font-semibold mb-4">Stay Connected</h4>
-            <p className="text-cream-200 mb-4">
-              Get updates on our programs, impact stories, and opportunities
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 rounded-lg bg-sage-800 border border-sage-700 text-cream-100 placeholder-cream-300 focus:outline-none focus:border-sage-500"
-              />
-              <button className="bg-mint-600 hover:bg-mint-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom Bar */}
         <div className="border-t border-sage-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <div className="text-cream-300 text-sm mb-4 sm:mb-0">

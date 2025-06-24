@@ -13,6 +13,7 @@ const Navigation = () => {
     { href: "/#impact", label: "Impact" },
     { href: "/our-team", label: "Our Team" },
     { href: "/the-zine", label: "The Zine" },
+    { href: "/podcast", label: "Podcast" },
     { href: "/blog", label: "Blog" },
     { href: "/#get-involved", label: "Get Involved" },
     { href: "/#contact", label: "Contact" },

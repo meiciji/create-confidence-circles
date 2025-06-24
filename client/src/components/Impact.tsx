@@ -60,7 +60,7 @@ const Impact = () => {
       quote:
         "CTC helped me realize that my voice matters and that I can create change through technology. I went from being afraid to speak up to leading my school's coding club.",
       name: "Maria S.",
-      role: "Creation Circle Graduate, Age 16",
+      role: "Mentee, Age 16",
       color: "sage",
     },
     {
@@ -267,12 +267,12 @@ const Impact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-white text-sage-600 font-bold py-4 px-8 rounded-2xl hover:bg-cream-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                  <a href="https://tally.so/r/31zda4">Apply For Programs</a>
+                  <a href="https://calendly.com/confidencethroughcreation/30min">
+                    Book a Call
+                  </a>
                 </button>
                 <button className="border-2 border-white text-white font-bold py-4 px-8 rounded-2xl hover:bg-white hover:text-sage-600 transition-all duration-300 transform hover:scale-105">
-                  <a href="https://form.typeform.com/to/zjHidOgm">
-                    Become a Mentor
-                  </a>
+                  <a href="https://tally.so/r/31zda4">Become a Mentor</a>
                 </button>
               </div>
             </div>

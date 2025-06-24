@@ -31,7 +31,7 @@ const GetInvolved = () => {
       action: (
         <Button className="bg-mint text-white">
           <a
-            href=""
+            href="https://tally.so/r/31zda4"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full h-full"
@@ -245,7 +245,7 @@ const GetInvolved = () => {
               size="lg"
               className="bg-sage-600 hover:bg-sage-700 text-white px-8 py-3"
             >
-              Explore Partnerships
+              Partnership Inquiries: confidencethroughcreation@gmail.com
             </Button>
           </div>
         </div>

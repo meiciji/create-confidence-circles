@@ -52,12 +52,11 @@ const Programs = () => {
     },
     {
       icon: Megaphone,
-      title: "Policy + Access Advocacy",
-      description: "Connecting creation with systemic change",
+      title: "Resource & Curriculum Empowerment",
+      description: "Connecting creation with education systems",
       features: [
-        "Focus on digital divide and girls in STEM",
-        "Real-world stats and actionable campaigns",
-        "Title I school funding advocacy",
+        "Equipping girls the support and knowledge to start something of their own",
+        "Advocacy and resources for individuals, clubs, and more",
         "Culturally responsive curricula promotion",
       ],
       color: "sage",
@@ -142,7 +141,6 @@ const Programs = () => {
             and advocacy for systemic change.
           </p>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
           {programs.map((program, index) => {
             const colorClasses = getColorClasses(program.color);
@@ -198,68 +196,6 @@ const Programs = () => {
               </div>
             );
           })}
-        </div>
-
-        {/* Enhanced Additional Components */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-          <div className="bg-white rounded-3xl p-8 shadow-xl border border-sage-200 transform hover:-translate-y-1 transition-all duration-300 group">
-            <div className="flex items-center mb-6">
-              <div className="bg-gradient-to-br from-sage-500 to-sage-600 rounded-2xl p-3 mr-4 group-hover:rotate-6 transition-transform duration-300">
-                <Users className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-sage-900">
-                Volunteer + Youth Leadership Team
-              </h3>
-            </div>
-            <div className="space-y-3">
-              {[
-                "~15 high school/college student leaders",
-                "Interview scouts and editors (podcast/audio, blog/newsletter)",
-                "Zine designers and peer mentors for cohorts",
-                "Monthly leadership meetings and training",
-              ].map((item, index) => (
-                <div key={index} className="flex items-start">
-                  <Zap className="h-4 w-4 text-sage-500 mt-1 mr-3 flex-shrink-0" />
-                  <span className="text-sage-700 font-medium">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-3xl p-8 shadow-xl border border-mint-200 transform hover:-translate-y-1 transition-all duration-300 group">
-            <div className="flex items-center mb-6">
-              <div className="bg-gradient-to-br from-mint-500 to-mint-600 rounded-2xl p-3 mr-4 group-hover:rotate-6 transition-transform duration-300">
-                <Award className="h-8 w-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-mint-900">
-                Partnerships & Collaborations
-              </h3>
-            </div>
-            <div className="space-y-3">
-              {[
-                "Partner with nonprofits like She's the First, Girls Who Code",
-                "Collaborate with schools and teachers",
-                "Work with local government & school boards",
-                "Joint events and resource sharing",
-              ].map((item, index) => (
-                <div key={index} className="flex items-start">
-                  <Star className="h-4 w-4 text-mint-500 mt-1 mr-3 flex-shrink-0" />
-                  <span className="text-mint-700 font-medium">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <div className="bg-gradient-to-r from-sage-600 via-mint-600 to-sage-600 rounded-full p-1 inline-block shadow-2xl">
-            <Button
-              size="lg"
-              className="bg-white text-sage-700 hover:text-sage-900 px-12 py-4 text-lg rounded-full font-bold hover:bg-cream-100 transition-all duration-300 transform hover:scale-105"
-            >
-              Apply to Join a Program
-            </Button>
-          </div>
         </div>
       </div>
     </section>
