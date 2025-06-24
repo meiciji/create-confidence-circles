@@ -87,7 +87,27 @@ Currently implements a basic user system:
 
 Preferred communication style: Simple, everyday language.
 
+## Deployment
+
+### Vercel Configuration
+- **vercel.json**: Configures serverless functions and static file serving
+- **api/index.ts**: Serverless function entry point for backend
+- **Build Command**: `npm run build` (Vite builds frontend to dist/public)
+- **Output Directory**: `dist/public`
+
+### Environment Variables Needed
+- `DATABASE_URL`: PostgreSQL connection string
+- `NODE_ENV`: Set to "production"
+- `SESSION_SECRET`: Random string for session encryption
+
+### Database Options
+- Neon Database (recommended for PostgreSQL)
+- Vercel Postgres
+- PlanetScale or other cloud PostgreSQL
+
 ## Changelog
 
-Changelog:
-- June 24, 2025. Initial setup
+- June 24, 2025: Added Vercel deployment configuration and documentation
+- June 24, 2025: Created podcast page with episode showcase
+- June 24, 2025: Built "The Zine" page featuring student project launches
+- June 24, 2025: Initial setup with team page, blog, and navigation
