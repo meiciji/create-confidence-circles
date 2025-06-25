@@ -79,7 +79,7 @@ const Navigation = () => {
                 ),
               )}
               <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 ml-4">
-                Donate
+                Book
               </Button>
             </div>
           </div>
