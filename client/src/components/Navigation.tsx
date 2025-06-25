@@ -78,9 +78,11 @@ const Navigation = () => {
                   </Link>
                 ),
               )}
-              <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 ml-4">
-                Book
-              </Button>
+              <a href="https://calendly.com/confidencethroughcreation/30min">
+                <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 ml-4">
+                  Book a Call
+                </Button>
+              </a>
             </div>
           </div>
 
