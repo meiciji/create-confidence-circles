@@ -20,10 +20,9 @@ const Impact = () => {
     },
     {
       icon: Target,
-      number: "12",
-      label: "States Reached",
-      description:
-        "Our work has empowered girls nationally to start their own projects",
+      number: "100K+",
+      label: "Girls Reached",
+      description: "Our platforms and mentorship has widespread global reach",
       color: "mint",
     },
     {

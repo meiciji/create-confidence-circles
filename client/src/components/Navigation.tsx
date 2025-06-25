@@ -126,9 +126,11 @@ const Navigation = () => {
                   </Link>
                 ),
               )}
-              <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 w-full mt-4">
-                Donate
-              </Button>
+              <a href="https://calendly.com/confidencethroughcreation/30min?month=2025-06">
+                <Button className="bg-sage-600 hover:bg-sage-700 text-cream-100 w-full mt-4">
+                  Book
+                </Button>
+              </a>
             </div>
           </div>
         )}
