@@ -91,16 +91,16 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
               </Button>
             </a>
-
+            <a href="https://calendly.com/confidencethroughcreation/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="outline"
               className="border-2 border-sage-600 text-sage-600 hover:bg-sage-50 px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 bg-white/90 backdrop-blur-sm w-full sm:w-auto"
             >
-              Learn More
+              Book a Call with a Mentor
             </Button>
           </div>
-
+          </a>
           {/* Enhanced Quick Stats with staggered animations */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div

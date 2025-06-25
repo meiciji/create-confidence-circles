@@ -16,7 +16,7 @@ const GetInvolved = () => {
             rel="noopener noreferrer"
             className="block w-full h-full"
           >
-            Apply Now
+            Book a Call
           </a>
         </Button>
       ),
