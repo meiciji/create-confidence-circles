@@ -195,12 +195,18 @@ const TheZine = () => {
                         src={project.image}
                         alt={project.title}
                         className="absolute inset-0 w-full h-full object-cover"
+                        onError={(e) => {
+                          console.error(`Failed to load image: ${project.image}`, e);
+                          e.currentTarget.style.display = 'none';
+                        }}
+                        onLoad={() => {
+                          console.log(`Successfully loaded image: ${project.image}`);
+                        }}
                       />
-                    ) : (
-                      <div
-                        className={`absolute inset-0 bg-gradient-to-br ${project.gradientFrom} ${project.gradientTo}`}
-                      />
-                    )}
+                    ) : null}
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-br ${project.gradientFrom} ${project.gradientTo}`}
+                    />
                     <div className="absolute inset-0 bg-black/10" />
                   </div>
 
