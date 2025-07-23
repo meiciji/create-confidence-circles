@@ -59,17 +59,12 @@ const Hero = () => {
                 className="text-xl sm:text-2xl text-sage-700 mb-8 max-w-4xl mx-auto leading-relaxed animate-slide-in-up"
                 style={{ animationDelay: "0.3s" }}
               >
-                Helping girls—especially from underrepresented communities—build
-                self-worth and leadership through
-                <span className="font-semibold text-sage-800">
-                  {" "}
-                  digital creation
-                </span>
-                ,<span className="font-semibold text-mint-700"> tech</span>,
-                <span className="font-semibold text-soft-700"> art</span>,
-                <span className="font-semibold text-sage-800"> business</span>,
-                and
-                <span className="font-semibold text-mint-700"> media</span>.
+                Empowering girls to lead with confidence through
+                <span className="font-semibold text-sage-800"> creation</span>,
+                <span className="font-semibold text-mint-700"> one</span>,
+                <span className="font-semibold text-soft-700"> project</span>,
+                <span className="font-semibold text-sage-800"> at</span>, a
+                <span className="font-semibold text-mint-700"> time</span>.
               </p>
 
               {/* Decorative wave */}

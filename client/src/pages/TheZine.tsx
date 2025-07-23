@@ -22,16 +22,17 @@ const TheZine = () => {
       image: "/fbla.png",
     },
     {
-      title: "Period Poverty Awareness Site",
-      creator: "Sofia & Maria, 17",
+      title: "Kamal",
+      creator: "Nanditha, 16",
       description:
-        "A website raising awareness about period poverty with interactive infographics, donation platform, and resource directory for local organizations.",
-      category: "Web Development",
+        "An organization dedicated to promoting the education of the Hindi culture through childrens books.",
+      category: "Nonprofit",
       technologies: ["HTML/CSS", "JavaScript", "Stripe API"],
-      launchDate: "January 2024",
-      impact: "$2,000+ raised for local shelters",
+      launchDate: "June 2025",
+      impact: "",
       gradientFrom: "from-soft-300",
       gradientTo: "to-mint-300",
+      image: "/kamal.png",
     },
     {
       title: "Mental Health Bot",
@@ -90,7 +91,7 @@ const TheZine = () => {
   const categories = [
     "All",
     "Mobile Development",
-    "Web Development",
+    "Nonprofit",
     "AI/Chatbot",
     "Full-Stack Platform",
     "Community Platform",
