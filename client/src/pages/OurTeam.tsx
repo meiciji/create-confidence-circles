@@ -14,9 +14,10 @@ const OurTeam = () => {
       gradientTo: "to-mint-300",
     },
     {
-      name: "Maria Rodriguez",
+      name: "Kamal",
       role: "Program Director",
-      bio: "Maria leads our educational programs with expertise in STEM education and community outreach. She holds a Master's in Education and is passionate about closing the gender gap in tech.",
+      bio: "Kamal leads our educational programs with expertise in STEM education and community outreach. He holds a Master's in Education and is passionate about closing the gender gap in tech.",
+      image: "/kamal.png",
       gradientFrom: "from-mint-300",
       gradientTo: "to-soft-300",
     },
