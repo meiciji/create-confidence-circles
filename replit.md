@@ -107,6 +107,8 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- July 23, 2025: Fixed Vercel deployment TailwindCSS module resolution by moving build dependencies (tailwindcss, postcss, autoprefixer, vite, @vitejs/plugin-react, typescript, @tailwindcss/vite) from devDependencies to dependencies
+- July 23, 2025: Updated favicon to use logo.png instead of favicon.ico for proper branding
 - June 24, 2025: Fixed Vercel deployment configuration - resolved TailwindCSS build errors, installed missing dependencies, simplified to static site deployment
 - June 24, 2025: Added Vercel deployment configuration and documentation
 - June 24, 2025: Created podcast page "Confidence Conversations" with episode showcase
