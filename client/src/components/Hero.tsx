@@ -129,7 +129,7 @@ const Hero = () => {
                   <Target className="h-8 w-8 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-mint-900 mb-2 group-hover:text-mint-700 transition-colors">
-                  200+
+                  25+
                 </div>
                 <div className="text-mint-700 text-sm font-medium">
                   Projects Launched
