@@ -60,10 +60,10 @@ const Hero = () => {
                 style={{ animationDelay: "0.3s" }}
               >
                 Empowering girls to lead with confidence through
-                <span className="font-semibold text-sage-800"> creation</span>,
-                <span className="font-semibold text-mint-700"> one</span>,
-                <span className="font-semibold text-soft-700"> project</span>,
-                <span className="font-semibold text-sage-800"> at</span>, a
+                <span className="font-semibold text-sage-800"> creation</span>—
+                <span className="font-semibold text-mint-700"> one</span>
+                <span className="font-semibold text-soft-700"> project</span>
+                <span className="font-semibold text-sage-800"> at</span> a
                 <span className="font-semibold text-mint-700"> time</span>.
               </p>
 
