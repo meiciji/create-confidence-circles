@@ -190,7 +190,7 @@ const TheZine = () => {
               >
                 <CardContent className="p-0">
                   <div className="h-48 rounded-t-lg flex items-center justify-center relative overflow-hidden">
-                    {index === 0 && project.image ? (
+                    {project.image ? (
                       <img
                         src={project.image}
                         alt={project.title}
