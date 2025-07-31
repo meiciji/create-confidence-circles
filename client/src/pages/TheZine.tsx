@@ -20,7 +20,7 @@ const TheZine = () => {
       gradientFrom: "from-mint-300",
       gradientTo: "to-sage-300",
       image: "/fbla.png",
-      link: "https://github.com/edquarium/mobile-app",
+      link: "https://github.com/meiciji/edquarium",
     },
     {
       title: "Kamal",
@@ -74,7 +74,7 @@ const TheZine = () => {
       gradientFrom: "from-mint-400",
       gradientTo: "to-sage-400",
       image: "/dtb.png",
-      link: "https://www.dreamstobusiness.hu",
+      link: "https://www.instagram.com/dtb.hungary/",
     },
     {
       title: "Steminist Study Hub",
@@ -308,7 +308,10 @@ const TheZine = () => {
                           </Button>
                         </a>
                       ) : (
-                        <Button className="w-full bg-sage-400 cursor-not-allowed text-white" disabled>
+                        <Button
+                          className="w-full bg-sage-400 cursor-not-allowed text-white"
+                          disabled
+                        >
                           <ExternalLink className="h-4 w-4 mr-2" />
                           Coming Soon
                         </Button>
