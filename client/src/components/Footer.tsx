@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Organization Info */}
           <div className="lg:col-span-1">
             <h3 className="text-xl font-bold mb-4">
-              Confidence through Creation
+              Confidence through Creation is a 501(c)(3) nonprofit
             </h3>
             <p className="text-cream-200 leading-relaxed mb-6">
               Empowering girls from underrepresented communities to build

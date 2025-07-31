@@ -80,7 +80,7 @@ const GetInvolved = () => {
       action: (
         <Button className="bg-mint-600 hover:bg-mint-700 text-white">
           <a
-            href="https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_BUTTON_ID"
+            href="https://hcb.hackclub.com/donations/start/confidence-through-creation"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full h-full"
