@@ -31,8 +31,16 @@ const Footer = () => {
       href: "https://www.instagram.com/confidencethroughcreation/",
       label: "Instagram",
     },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/company/confidence-through-creation/",
+      label: "LinkedIn",
+    },
+    {
+      icon: Youtube,
+      href: "https://www.youtube.com/@ConfidenceThroughCreation",
+      label: "YouTube",
+    },
   ];
 
   return (

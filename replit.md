@@ -107,6 +107,9 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- July 31, 2025: Added individual project links functionality - each "View Project" button now opens the organization's website in a new tab
+- July 31, 2025: Renamed "The Zine" to "Project Showcase" throughout navigation and page titles  
+- July 31, 2025: Added donate button to Financial Support section in Get Involved page
 - July 31, 2025: Updated The Zine with 5 student organizations (Kamal, Financial Boost, Dreams to Business Hungary, Steminist Study Hub) with proper images and detailed information
 - July 31, 2025: Fixed image display layering issues on The Zine page with proper z-index stacking
 - July 31, 2025: Removed blog functionality entirely from navigation and routing

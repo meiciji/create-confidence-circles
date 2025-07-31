@@ -16,10 +16,11 @@ const TheZine = () => {
       category: "Mobile Development",
       technologies: ["React Native", "Firebase", "API Integration"],
       launchDate: "March 2025",
-      impact: "2nd place at Georgia FBLA SLC",
+      impact: "5th Place FBLA Nationals 2025, 2nd place at Georgia FBLA SLC",
       gradientFrom: "from-mint-300",
       gradientTo: "to-sage-300",
       image: "/fbla.png",
+      link: "https://github.com/edquarium/mobile-app",
     },
     {
       title: "Kamal",
@@ -27,12 +28,17 @@ const TheZine = () => {
       description:
         "An organization dedicated to promoting the education of the Hindi culture through children's books.",
       category: "Nonprofit",
-      technologies: ["Website Development", "Content Creation", "Community Outreach"],
+      technologies: [
+        "Website Development",
+        "Content Creation",
+        "Community Outreach",
+      ],
       launchDate: "June 2025",
       impact: "Promoting Hindi culture education for children",
       gradientFrom: "from-soft-300",
       gradientTo: "to-mint-300",
       image: "/kamal.png",
+      link: "https://www.kamalbooks.org",
     },
     {
       title: "Financial Boost",
@@ -40,12 +46,17 @@ const TheZine = () => {
       description:
         "An organization dedicated to hosting workshops about personal finance, financial literacy, and how to secure your money for immigrant families.",
       category: "Nonprofit",
-      technologies: ["Workshop Facilitation", "Financial Education", "Community Building"],
+      technologies: [
+        "Workshop Facilitation",
+        "Financial Education",
+        "Community Building",
+      ],
       launchDate: "July 2025",
       impact: "Empowering immigrant families with financial literacy",
       gradientFrom: "from-sage-300",
       gradientTo: "to-soft-300",
       image: "/financial.png",
+      link: "https://www.financialboost.org",
     },
     {
       title: "Dreams to Business Hungary",
@@ -53,12 +64,17 @@ const TheZine = () => {
       description:
         "At Dreams to Business, we teach underprivileged children essential business skills through creative workshops, fairs, and resources.",
       category: "Nonprofit",
-      technologies: ["Business Education", "Workshop Design", "Youth Mentoring"],
+      technologies: [
+        "Business Education",
+        "Workshop Design",
+        "Youth Mentoring",
+      ],
       launchDate: "July 2025",
       impact: "Teaching business skills to underprivileged children",
       gradientFrom: "from-mint-400",
       gradientTo: "to-sage-400",
       image: "/dtb.png",
+      link: "https://www.dreamstobusiness.hu",
     },
     {
       title: "Steminist Study Hub",
@@ -66,12 +82,17 @@ const TheZine = () => {
       description:
         "Platform for women in STEM with access to study materials, resources, and mentors.",
       category: "Community Platform",
-      technologies: ["Platform Development", "Resource Curation", "Mentorship Matching"],
+      technologies: [
+        "Platform Development",
+        "Resource Curation",
+        "Mentorship Matching",
+      ],
       launchDate: "May 2025",
       impact: "Supporting women in STEM education and careers",
       gradientFrom: "from-sage-400",
       gradientTo: "to-mint-300",
       image: "/steminist.png",
+      link: "https://www.steminststudyhub.com",
     },
     {
       title: "Coding Bootcamp for Kids",
@@ -88,6 +109,7 @@ const TheZine = () => {
       impact: "300+ kids enrolled",
       gradientFrom: "from-soft-400",
       gradientTo: "to-sage-300",
+      link: "https://www.codingbootcampforkids.com",
     },
   ];
 
@@ -273,10 +295,24 @@ const TheZine = () => {
                         {project.impact}
                       </div>
 
-                      <Button className="w-full bg-sage-600 hover:bg-sage-700 text-white">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        View Project
-                      </Button>
+                      {project.link ? (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block w-full"
+                        >
+                          <Button className="w-full bg-sage-600 hover:bg-sage-700 text-white">
+                            <ExternalLink className="h-4 w-4 mr-2" />
+                            View Project
+                          </Button>
+                        </a>
+                      ) : (
+                        <Button className="w-full bg-sage-400 cursor-not-allowed text-white" disabled>
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Coming Soon
+                        </Button>
+                      )}
                     </div>
                   </div>
                 </CardContent>
