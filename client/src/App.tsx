@@ -8,7 +8,6 @@ import Index from "./pages/Index";
 import OurTeam from "./pages/OurTeam";
 import TheZine from "./pages/TheZine";
 import Podcast from "./pages/Podcast";
-import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -24,7 +23,6 @@ const App = () => {
           <Route path="/our-team" component={OurTeam} />
           <Route path="/the-zine" component={TheZine} />
           <Route path="/podcast" component={Podcast} />
-          <Route path="/blog" component={Blog} />
           <Route component={NotFound} />
         </Switch>
       </TooltipProvider>
