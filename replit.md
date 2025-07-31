@@ -107,6 +107,9 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- July 31, 2025: Updated The Zine with 5 student organizations (Kamal, Financial Boost, Dreams to Business Hungary, Steminist Study Hub) with proper images and detailed information
+- July 31, 2025: Fixed image display layering issues on The Zine page with proper z-index stacking
+- July 31, 2025: Removed blog functionality entirely from navigation and routing
 - July 23, 2025: Fixed Vercel deployment TailwindCSS module resolution by moving build dependencies (tailwindcss, postcss, autoprefixer, vite, @vitejs/plugin-react, typescript, @tailwindcss/vite) from devDependencies to dependencies
 - July 23, 2025: Updated favicon to use logo.png instead of favicon.ico for proper branding
 - June 24, 2025: Fixed Vercel deployment configuration - resolved TailwindCSS build errors, installed missing dependencies, simplified to static site deployment

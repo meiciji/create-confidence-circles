@@ -25,50 +25,53 @@ const TheZine = () => {
       title: "Kamal",
       creator: "Nanditha, 16",
       description:
-        "An organization dedicated to promoting the education of the Hindi culture through childrens books.",
+        "An organization dedicated to promoting the education of the Hindi culture through children's books.",
       category: "Nonprofit",
-      technologies: ["HTML/CSS", "JavaScript", "Stripe API"],
+      technologies: ["Website Development", "Content Creation", "Community Outreach"],
       launchDate: "June 2025",
-      impact: "",
+      impact: "Promoting Hindi culture education for children",
       gradientFrom: "from-soft-300",
       gradientTo: "to-mint-300",
       image: "/kamal.png",
     },
     {
-      title: "Mental Health Bot",
-      creator: "Priya, 15",
+      title: "Financial Boost",
+      creator: "Priya, 17",
       description:
-        "A Discord bot that provides mental health resources, daily affirmations, and connects users with crisis hotlines when needed.",
-      category: "AI/Chatbot",
-      technologies: ["Python", "Discord.py", "Natural Language Processing"],
-      launchDate: "February 2024",
-      impact: "Used in 50+ Discord servers",
+        "An organization dedicated to hosting workshops about personal finance, financial literacy, and how to secure your money for immigrant families.",
+      category: "Nonprofit",
+      technologies: ["Workshop Facilitation", "Financial Education", "Community Building"],
+      launchDate: "July 2025",
+      impact: "Empowering immigrant families with financial literacy",
       gradientFrom: "from-sage-300",
       gradientTo: "to-soft-300",
+      image: "/financial.png",
     },
     {
-      title: "Study Buddy Marketplace",
-      creator: "Chen & Fatima, 16",
+      title: "Dreams to Business Hungary",
+      creator: "Viktória, 16",
       description:
-        "Platform connecting students for peer tutoring sessions with built-in video chat, scheduling, and payment processing.",
-      category: "Full-Stack Platform",
-      technologies: ["React", "Node.js", "MongoDB", "WebRTC"],
-      launchDate: "April 2024",
-      impact: "200+ students connected",
+        "At Dreams to Business, we teach underprivileged children essential business skills through creative workshops, fairs, and resources.",
+      category: "Nonprofit",
+      technologies: ["Business Education", "Workshop Design", "Youth Mentoring"],
+      launchDate: "July 2025",
+      impact: "Teaching business skills to underprivileged children",
       gradientFrom: "from-mint-400",
       gradientTo: "to-sage-400",
+      image: "/dtb.png",
     },
     {
-      title: "Community Garden Network",
-      creator: "Isabella, 17",
+      title: "Steminist Study Hub",
+      creator: "Oreoluwa, 17",
       description:
-        "Digital platform mapping local community gardens, sharing growing tips, and organizing neighborhood gardening events.",
+        "Platform for women in STEM with access to study materials, resources, and mentors.",
       category: "Community Platform",
-      technologies: ["Vue.js", "Google Maps API", "PWA"],
-      launchDate: "May 2024",
-      impact: "15 gardens registered, 100+ members",
+      technologies: ["Platform Development", "Resource Curation", "Mentorship Matching"],
+      launchDate: "May 2025",
+      impact: "Supporting women in STEM education and careers",
       gradientFrom: "from-sage-400",
       gradientTo: "to-mint-300",
+      image: "/steminist.png",
     },
     {
       title: "Coding Bootcamp for Kids",
@@ -196,11 +199,16 @@ const TheZine = () => {
                         alt={project.title}
                         className="absolute inset-0 w-full h-full object-cover z-10"
                         onError={(e) => {
-                          console.error(`Failed to load image: ${project.image}`, e);
-                          e.currentTarget.style.display = 'none';
+                          console.error(
+                            `Failed to load image: ${project.image}`,
+                            e,
+                          );
+                          e.currentTarget.style.display = "none";
                         }}
                         onLoad={() => {
-                          console.log(`Successfully loaded image: ${project.image}`);
+                          console.log(
+                            `Successfully loaded image: ${project.image}`,
+                          );
                         }}
                       />
                     ) : (
@@ -238,22 +246,24 @@ const TheZine = () => {
                       {project.description}
                     </p>
 
-                    <div className="mb-4">
-                      <div className="text-sm font-semibold text-sage-800 mb-2">
-                        Technologies:
+                    {project.technologies && (
+                      <div className="mb-4">
+                        <div className="text-sm font-semibold text-sage-800 mb-2">
+                          Technologies:
+                        </div>
+                        <div className="flex flex-wrap gap-1">
+                          {project.technologies.map((tech, techIndex) => (
+                            <Badge
+                              key={techIndex}
+                              variant="secondary"
+                              className="text-xs"
+                            >
+                              {tech}
+                            </Badge>
+                          ))}
+                        </div>
                       </div>
-                      <div className="flex flex-wrap gap-1">
-                        {project.technologies.map((tech, techIndex) => (
-                          <Badge
-                            key={techIndex}
-                            variant="secondary"
-                            className="text-xs"
-                          >
-                            {tech}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
+                    )}
 
                     <div className="border-t border-sage-100 pt-4">
                       <div className="text-sm font-semibold text-sage-800 mb-1">
