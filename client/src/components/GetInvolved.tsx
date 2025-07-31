@@ -77,7 +77,18 @@ const GetInvolved = () => {
       title: "Financial Support",
       description:
         "Help us provide free programming and resources to girls from all backgrounds",
-      action: "Donate",
+      action: (
+        <Button className="bg-mint-600 hover:bg-mint-700 text-white">
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_BUTTON_ID"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full h-full"
+          >
+            Donate Now
+          </a>
+        </Button>
+      ),
       color: "mint",
       eligibility: "Anyone Who Believes in Our Mission",
     },

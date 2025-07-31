@@ -117,9 +117,9 @@ const TheZine = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-sage-900 mb-6">
-              The{" "}
+              Project{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sage-600 to-mint-600">
-                Zine
+                Showcase
               </span>
             </h1>
 
