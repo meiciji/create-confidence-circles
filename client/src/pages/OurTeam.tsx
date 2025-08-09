@@ -8,7 +8,7 @@ const OurTeam = () => {
     {
       name: "Mei Tham",
       role: "Founder & Executive Director",
-      bio: "Mei is a content creator on TikTok and a proponent for equality in STEM education. She founded Confidence through Creation to empower young girls through technology and creative arts.",
+      bio: "Mei is a content creator on TikTok and a proponent for equality in STEM education. She founded Confidence through Creation to empower young girls through technology and creative arts. Hi! My name is Mei. I am a senior in high school from Atlanta, GA. Fun fact: I love iced vanilla lattes and collecting vinyls.",
       image: "/MeiYing_Tham_Photo.jpg",
       gradientFrom: "from-sage-300",
       gradientTo: "to-mint-300",
@@ -33,6 +33,54 @@ const OurTeam = () => {
       bio: "Ashley connects with schools and community organizations to expand our reach and ensure we're serving girls from all backgrounds and communities.",
       gradientFrom: "from-sage-400",
       gradientTo: "to-mint-400",
+    },
+    {
+      name: "Anoushka",
+      role: "Creative Content Director",
+      bio: "Hey! My name is Anoushka. I’m a Junior in high school from Plainsboro, NJ. Fun fact: I’m always down for a late-night music jam or spontaneous photoshoot.",
+      image: "/Anoushka_Photo.png",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
+    },
+    {
+      name: "Zamirah Wilson",
+      role: "Creative Content Director",
+      bio: "Hi! My name is Zamirah. I’m a Senior in high school from Warner Robins, Ga! Fun fact: I eat out at least 3 times a week (Specifically Chick-fil-A).",
+      image: "",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
+    },
+    {
+      name: "Zainab",
+      role: "Creative Content Director",
+      bio: "hii! i am zainab, a Soph from LUMS, Lahore, Pakistan. Fun fact: i love everything horses, diplomacy, and scents!🤍",
+      image: "/Zainab_Photo.jpg",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
+    },
+    {
+      name: "Amrutha Akula",
+      role: "Podcast Director",
+      bio: "Hi! My name is Amrutha, and I’m a junior from Cedar Rapids, Iowa. Fun Fact: I do a form of classical indian dance, Kuchipudi!",
+      image: "/Amrutha_Photo.png",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
+    },
+    {
+      name: "Alyssa Tonolete",
+      role: "Front-end Web Developer",
+      bio: "Hello! My name is Alyssa and I’m a second year university student from the UK. I love animated shows like Steven Universe and Arcane!",
+      image: "/Alyssa_Photo.jpg",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
+    },
+    {
+      name: "Bryleigh",
+      role: "Outreach and Impact Director",
+      bio: "Hi! I’m Bryleigh, a high school sophomore from North Dakota. I love playing the bassoon and meeting new people, and I’m always excited to create meaningful connections.",
+      image: "/Bryleigh_Photo.jpg",
+      gradientFrom: "from-sage-300",
+      gradientTo: "to-mint-300",
     },
   ];
 
@@ -88,7 +136,9 @@ const OurTeam = () => {
                         />
                       </div>
                     ) : (
-                      <div className={`w-32 h-32 bg-gradient-to-br ${member.gradientFrom} ${member.gradientTo} rounded-full mb-6 flex items-center justify-center shadow-lg`}>
+                      <div
+                        className={`w-32 h-32 bg-gradient-to-br ${member.gradientFrom} ${member.gradientTo} rounded-full mb-6 flex items-center justify-center shadow-lg`}
+                      >
                         <Users className="h-16 w-16 text-sage-600" />
                       </div>
                     )}
