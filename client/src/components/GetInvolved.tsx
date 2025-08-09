@@ -9,16 +9,14 @@ const GetInvolved = () => {
       description:
         "Book a call with one of our mentors to help you start our program to confidence.",
       action: (
-        <Button className="bg-sage-600 hover:bg-sage-700 text-white">
-          <a
-            href="https://calendly.com/confidencethroughcreation/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            Book a Call
-          </a>
-        </Button>
+        <a
+          href="https://calendly.com/confidencethroughcreation/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-sage-600 hover:bg-sage-700 transition-colors duration-200 w-full"
+        >
+          Book a Call
+        </a>
       ),
       color: "sage",
       eligibility: "Middle & High School Girls",
@@ -29,16 +27,14 @@ const GetInvolved = () => {
       description:
         "Guide younger girls through their creative journey and share your expertise",
       action: (
-        <Button className="bg-mint text-white">
-          <a
-            href="https://tally.so/r/31zda4"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            Mentor Application
-          </a>
-        </Button>
+        <a
+          href="https://tally.so/r/31zda4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-mint hover:bg-mint-700 transition-colors duration-200 w-full"
+        >
+          Mentor Application
+        </a>
       ),
       color: "mint",
       eligibility: "High School & College Students",
@@ -49,16 +45,14 @@ const GetInvolved = () => {
       description:
         "Join our core team of ~15 student leaders helping run programs and create content",
       action: (
-        <Button className="bg-soft text-white">
-          <a
-            href="https://form.typeform.com/to/zjHidOgm"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            Leadership Application
-          </a>
-        </Button>
+        <a
+          href="https://form.typeform.com/to/zjHidOgm"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-soft hover:bg-soft-700 transition-colors duration-200 w-full"
+        >
+          Leadership Application
+        </a>
       ),
       color: "soft",
       eligibility: "High School & College Students",
@@ -68,7 +62,14 @@ const GetInvolved = () => {
       title: "Adult Volunteer",
       description:
         "Support our mission through skill-based volunteering, event support, or advisory roles",
-      action: "Volunteer Sign-Up",
+      action: (
+        <button
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-sage-600 hover:bg-sage-700 transition-colors duration-200 w-full"
+          onClick={() => window.open('mailto:confidencethroughcreation@gmail.com?subject=Volunteer Inquiry', '_blank')}
+        >
+          Volunteer Sign-Up
+        </button>
+      ),
       color: "sage",
       eligibility: "Adults & Professionals",
     },
@@ -78,16 +79,14 @@ const GetInvolved = () => {
       description:
         "Help us provide free programming and resources to girls from all backgrounds",
       action: (
-        <Button className="bg-mint-600 hover:bg-mint-700 text-white">
-          <a
-            href="https://hcb.hackclub.com/donations/start/confidence-through-creation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            Donate Now
-          </a>
-        </Button>
+        <a
+          href="https://hcb.hackclub.com/donations/start/confidence-through-creation"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-mint-600 hover:bg-mint-700 transition-colors duration-200 w-full"
+        >
+          Donate Now
+        </a>
       ),
       color: "mint",
       eligibility: "Anyone Who Believes in Our Mission",
@@ -98,16 +97,14 @@ const GetInvolved = () => {
       description:
         "Share our content, recommend girls for programs, or connect us with potential partners",
       action: (
-        <Button className="bg-mint text-white">
-          <a
-            href="https://www.instagram.com/confidencethroughcreation/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full"
-          >
-            Share & Connect
-          </a>
-        </Button>
+        <a
+          href="https://www.instagram.com/confidencethroughcreation/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md text-white bg-mint hover:bg-mint-700 transition-colors duration-200 w-full"
+        >
+          Share & Connect
+        </a>
       ),
       color: "soft",
       eligibility: "Everyone",
@@ -193,9 +190,9 @@ const GetInvolved = () => {
                   </span>
                 </div>
 
-                <Button className={`w-full text-white ${colorClasses.button}`}>
+                <div className="w-full">
                   {opportunity.action}
-                </Button>
+                </div>
               </div>
             );
           })}
