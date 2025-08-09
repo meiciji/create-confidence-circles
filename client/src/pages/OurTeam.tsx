@@ -37,7 +37,7 @@ const OurTeam = () => {
     {
       name: "Anoushka",
       role: "Creative Content Director",
-      bio: "Hey! My name is Anoushka. I’m a Junior in high school from Plainsboro, NJ. Fun fact: I’m always down for a late-night music jam or spontaneous photoshoot.",
+      bio: "Hey! My name is Anoushka. I'm a Junior in high school from Plainsboro, NJ. Fun fact: I'm always down for a late-night music jam or spontaneous photoshoot.",
       image: "/Anoushka_Photo.png",
       gradientFrom: "from-sage-300",
       gradientTo: "to-mint-300",
