@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Calendar, User, Sparkles } from "lucide-react";
+import { useState, useEffect } from "react";
 
 const TheZine = () => {
   const projects = [
@@ -123,6 +124,26 @@ const TheZine = () => {
     "EdTech",
   ];
 
+  //category filter functionality
+  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const [filter, setFilter] = useState("All");
+
+  const handleBtns = (e: React.MouseEvent<HTMLButtonElement>) => {
+    let btnValue = (e.target as HTMLButtonElement).value;
+    setFilter(btnValue);
+  };
+
+  useEffect(() => {
+    if (filter === "All") {
+      setFilteredProjects(projects);
+    } else {
+      const filtered = projects.filter(
+        (project) => project.category === filter,
+      );
+      setFilteredProjects(filtered);
+    }
+  }, [filter]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-cream-300 to-sage-100">
       <Navigation />
@@ -188,6 +209,8 @@ const TheZine = () => {
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((category, index) => (
               <Button
+                onClick={handleBtns}
+                value={category}
                 key={index}
                 variant={index === 0 ? "default" : "outline"}
                 className={`${
