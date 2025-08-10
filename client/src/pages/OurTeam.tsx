@@ -14,27 +14,6 @@ const OurTeam = () => {
       gradientTo: "to-mint-300",
     },
     {
-      name: "Maria Rodriguez",
-      role: "Program Director",
-      bio: "Maria leads our educational programs with expertise in STEM education and community outreach. She holds a Master's in Education and is passionate about closing the gender gap in tech.",
-      gradientFrom: "from-mint-300",
-      gradientTo: "to-soft-300",
-    },
-    {
-      name: "Dr. Jennifer Chen",
-      role: "Technical Advisor",
-      bio: "Dr. Chen brings her experience as a software engineer and computer science professor to guide our technical curriculum and mentor our participants.",
-      gradientFrom: "from-soft-300",
-      gradientTo: "to-sage-300",
-    },
-    {
-      name: "Ashley Williams",
-      role: "Community Outreach Coordinator",
-      bio: "Ashley connects with schools and community organizations to expand our reach and ensure we're serving girls from all backgrounds and communities.",
-      gradientFrom: "from-sage-400",
-      gradientTo: "to-mint-400",
-    },
-    {
       name: "Anoushka",
       role: "Creative Content Director",
       bio: "Hey! My name is Anoushka. I'm a Junior in high school from Plainsboro, NJ. Fun fact: I'm always down for a late-night music jam or spontaneous photoshoot.",
