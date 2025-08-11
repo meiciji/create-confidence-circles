@@ -14,9 +14,18 @@ import {
   Headphones,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Podcast = () => {
+  useEffect(() => {
+    document.title = "Confidence Conversations Podcast - Confidence Through Creation";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Listen to Confidence Conversations, our podcast featuring inspiring stories from young women leaders, entrepreneurs, and change-makers sharing their journeys in technology and creativity.');
+    }
+  }, []);
+  
   const [playingEpisode, setPlayingEpisode] = useState<number | null>(null);
 
   const episodes = [

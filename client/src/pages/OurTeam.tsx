@@ -1,9 +1,19 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Heart, Star } from "lucide-react";
 
 const OurTeam = () => {
+  useEffect(() => {
+    document.title = "Our Team - Confidence Through Creation";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Meet our dedicated team of passionate educators, mentors, and advocates working together to empower the next generation of female leaders through creativity and technology.');
+    }
+  }, []);
+  
   const teamMembers = [
     {
       name: "Mei Tham",

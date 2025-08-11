@@ -26,20 +26,21 @@ const Programs = () => {
     },
     {
       icon: Users,
-      title: "Virtual Creation Circles",
-      description: "4-week online cohorts for middle/high school girls",
+      title: "1:1 Mentorship Program",
+      description:
+        "FREE calls where anyone with an idea or existing project can talk to a mentor",
       features: [
-        "Virtual workshops (branding, building, storytelling)",
-        "Create something meaningful (blog, prototype, zine, product idea)",
-        "Present in virtual showcases with peer support",
-        "Mentorship from teen/college volunteers",
+        "Brainstorming and ideation workshops",
+        "Create something meaningful (blog, prototype, zine, product idea",
+        "Join community of successful mentees/female founders",
+        "Marketing and growth strategies for REAL IMPACT",
       ],
       color: "mint",
       shape: "rounded-tr-3xl rounded-bl-3xl",
     },
     {
       icon: BookOpen,
-      title: "Digital Zine + Showcase",
+      title: "Digital Showcase",
       description: "Monthly publication featuring girls' creative work",
       features: [
         "Girls' creative work and stories",

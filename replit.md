@@ -107,6 +107,7 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- August 11, 2025: Added SEO optimization with unique title tags and meta descriptions for all pages including Open Graph and Twitter Card meta tags
 - August 11, 2025: Split main sections into separate pages - Programs, Impact, and Contact (Get Involved) are now individual pages with their own routes (/programs, /impact, /contact)
 - August 11, 2025: Updated navigation to link to new separate pages instead of scroll sections
 - August 11, 2025: Simplified home page to show only Hero and Mission sections

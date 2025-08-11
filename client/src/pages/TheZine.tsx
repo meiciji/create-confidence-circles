@@ -8,6 +8,15 @@ import { ExternalLink, Calendar, User, Sparkles } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const TheZine = () => {
+  useEffect(() => {
+    document.title = "Project Showcase - Confidence Through Creation";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Discover inspiring technology projects created by young women in our community. From mobile apps to AI chatbots and nonprofit platforms, see how girls are changing the world through creation.');
+    }
+  }, []);
+  
   const projects = [
     {
       title: "EdQuarium Mobile App",
