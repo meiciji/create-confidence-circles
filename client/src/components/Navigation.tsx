@@ -9,16 +9,15 @@ const Navigation = () => {
 
   const navItems = [
     { href: "/#about", label: "About" },
-    { href: "/#programs", label: "Programs" },
-    { href: "/#impact", label: "Impact" },
+    { href: "/programs", label: "Programs" },
+    { href: "/impact", label: "Impact" },
     { href: "/our-team", label: "Our Team" },
     { href: "/the-zine", label: "Project Showcase" },
     { href: "/podcast", label: "Podcast" },
-    { href: "/#get-involved", label: "Get Involved" },
-    { href: "/#contact", label: "Contact" },
+    { href: "/contact", label: "Get Involved" },
   ];
 
-  const navigateToSection = (href) => {
+  const navigateToSection = (href: string) => {
     const [pathname, hash] = href.split("#");
 
     if (pathname === "/" || pathname === "") {

@@ -107,6 +107,11 @@ Preferred communication style: Simple, everyday language.
 
 ## Changelog
 
+- August 11, 2025: Split main sections into separate pages - Programs, Impact, and Contact (Get Involved) are now individual pages with their own routes (/programs, /impact, /contact)
+- August 11, 2025: Updated navigation to link to new separate pages instead of scroll sections
+- August 11, 2025: Simplified home page to show only Hero and Mission sections
+- August 11, 2025: Fixed TypeScript errors in navigation and TheZine components
+- August 11, 2025: Fixed DOM nesting issues in GetInvolved component by replacing nested buttons with proper anchor elements
 - July 31, 2025: Added individual project links functionality - each "View Project" button now opens the organization's website in a new tab
 - July 31, 2025: Renamed "The Zine" to "Project Showcase" throughout navigation and page titles  
 - July 31, 2025: Added donate button to Financial Support section in Get Involved page

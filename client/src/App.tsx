@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import OurTeam from "./pages/OurTeam";
 import TheZine from "./pages/TheZine";
 import Podcast from "./pages/Podcast";
+import ProgramsPage from "./pages/Programs";
+import ImpactPage from "./pages/Impact";
+import ContactPage from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -21,6 +24,9 @@ const App = () => {
         <Switch>
           <Route path="/" component={Index} />
           <Route path="/our-team" component={OurTeam} />
+          <Route path="/programs" component={ProgramsPage} />
+          <Route path="/impact" component={ImpactPage} />
+          <Route path="/contact" component={ContactPage} />
           <Route path="/the-zine" component={TheZine} />
           <Route path="/podcast" component={Podcast} />
           <Route component={NotFound} />
