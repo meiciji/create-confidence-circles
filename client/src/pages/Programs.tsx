@@ -5,7 +5,7 @@ import Programs from "@/components/Programs";
 
 const ProgramsPage = () => {
   useEffect(() => {
-    document.title = "Our Programs - Confidence Through Creation";
+    document.title = "Programs for Teen Girls | Confidence Through Creation";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

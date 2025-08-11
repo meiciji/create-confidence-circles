@@ -18,7 +18,7 @@ import { useState, useEffect } from "react";
 
 const Podcast = () => {
   useEffect(() => {
-    document.title = "Confidence Conversations Podcast - Confidence Through Creation";
+    document.title = "The Confidence Creator Podcast | Confidence Through Creation";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

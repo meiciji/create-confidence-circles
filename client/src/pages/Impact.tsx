@@ -5,7 +5,7 @@ import Impact from "@/components/Impact";
 
 const ImpactPage = () => {
   useEffect(() => {
-    document.title = "Our Impact - Confidence Through Creation";
+    document.title = "Impact | Confidence Through Creation";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

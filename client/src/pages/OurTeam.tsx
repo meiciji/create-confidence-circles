@@ -6,7 +6,7 @@ import { Users, Heart, Star } from "lucide-react";
 
 const OurTeam = () => {
   useEffect(() => {
-    document.title = "Our Team - Confidence Through Creation";
+    document.title = "Our Team | Confidence Through Creation";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
