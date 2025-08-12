@@ -7,18 +7,21 @@ import { Users, Heart, Star } from "lucide-react";
 const OurTeam = () => {
   useEffect(() => {
     document.title = "Our Team | Confidence Through Creation";
-    
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Meet our dedicated team of passionate educators, mentors, and advocates working together to empower the next generation of female leaders through creativity and technology.');
+      metaDescription.setAttribute(
+        "content",
+        "Meet our dedicated team of passionate educators, mentors, and advocates working together to empower the next generation of female leaders through creativity and technology.",
+      );
     }
   }, []);
-  
+
   const teamMembers = [
     {
       name: "Mei Tham",
       role: "Founder & Executive Director",
-      bio: "Mei is a content creator on TikTok and a proponent for equality in STEM education. She founded Confidence through Creation to empower young girls through technology and creative arts. Hi! My name is Mei. I am a senior in high school from Atlanta, GA. Fun fact: I love iced vanilla lattes and collecting vinyls.",
+      bio: "Hi! My name is Mei. I am a senior in high school from Atlanta, GA, a content creator on TikTok, and a proponent for equality in STEM education. I founded Confidence through Creation to empower young girls through technology and creative arts. Fun fact: I love iced vanilla lattes and collecting vinyls.",
       image: "/MeiYing_Tham_Photo.jpg",
       gradientFrom: "from-sage-300",
       gradientTo: "to-mint-300",
@@ -35,14 +38,14 @@ const OurTeam = () => {
       name: "Zamirah Wilson",
       role: "Creative Content Director",
       bio: "Hi! My name is Zamirah. I’m a Senior in high school from Warner Robins, Ga! Fun fact: I eat out at least 3 times a week (Specifically Chick-fil-A).",
-      image: "",
+      image: "Zamirah_Photo.png",
       gradientFrom: "from-sage-300",
       gradientTo: "to-mint-300",
     },
     {
       name: "Zainab",
       role: "Creative Content Director",
-      bio: "hii! i am zainab, a Soph from LUMS, Lahore, Pakistan. Fun fact: i love everything horses, diplomacy, and scents!🤍",
+      bio: "Hii! I am Zainab, a Soph from LUMS, Lahore, Pakistan. Fun fact: I love everything horses, diplomacy, and scents! 🤍",
       image: "/Zainab_Photo.jpg",
       gradientFrom: "from-sage-300",
       gradientTo: "to-mint-300",
