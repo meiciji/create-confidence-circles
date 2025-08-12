@@ -36,24 +36,6 @@ const TheZine = () => {
       link: "https://github.com/meiciji/edquarium",
     },
     {
-      title: "Kamal",
-      creator: "Nanditha, 16",
-      description:
-        "An organization dedicated to promoting the education of the Hindi culture through children's books.",
-      category: "Nonprofit",
-      technologies: [
-        "Website Development",
-        "Content Creation",
-        "Community Outreach",
-      ],
-      launchDate: "June 2025",
-      impact: "Promoting Hindi culture education for children",
-      gradientFrom: "from-soft-300",
-      gradientTo: "to-mint-300",
-      image: "/kamal.png",
-      link: "https://www.kamalbooks.org",
-    },
-    {
       title: "Financial Boost",
       creator: "Priya, 17",
       description:
@@ -123,6 +105,25 @@ const TheZine = () => {
       gradientFrom: "from-soft-400",
       gradientTo: "to-sage-300",
       link: "https://www.codingbootcampforkids.com",
+    },
+    {
+      title: "NeuroRest",
+      creator: "",
+      description:
+        "Platform addressing the increasing prevalence of burn-out in teens caused by issues like constant pressure from college admissions and juggling multiple commitments.",
+      category: "",
+      technologies: [
+        "Student-led Research",
+        "Mental Health",
+        "Neuroscience Project",
+      ],
+      launchDate: "August 2025",
+      impact:
+        "Helping young people redefine how they rest and recover through research-based techniques.",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "/neurorest.png",
+      link: "https://www.instagram.com/neuro_rest/",
     },
   ];
 
