@@ -41,16 +41,16 @@ const Impact = () => {
     },
     {
       icon: Globe,
-      number: "25",
-      label: "States Reached",
+      number: "10",
+      label: "Countries Reached",
       description: "Virtual programming enables nationwide impact",
       color: "mint",
     },
     {
       icon: TrendingUp,
-      number: "1000+",
-      label: "Monthly Readers",
-      description: "Engaged audience for podcast and newsletter",
+      number: "500+",
+      label: "Montly Listeners",
+      description: "Engaged audience for The Confident Creator podcast",
       color: "soft",
     },
   ];

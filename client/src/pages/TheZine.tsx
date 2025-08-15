@@ -90,28 +90,11 @@ const TheZine = () => {
       link: "https://www.steminststudyhub.com",
     },
     {
-      title: "Coding Bootcamp for Kids",
-      creator: "Zara, 16",
-      description:
-        "Online learning platform teaching basic programming to elementary school children through games and interactive exercises.",
-      category: "EdTech",
-      technologies: [
-        "Scratch Integration",
-        "Gamification",
-        "Progress Tracking",
-      ],
-      launchDate: "June 2024",
-      impact: "300+ kids enrolled",
-      gradientFrom: "from-soft-400",
-      gradientTo: "to-sage-300",
-      link: "https://www.codingbootcampforkids.com",
-    },
-    {
       title: "NeuroRest",
       creator: "Ivy, 16",
       description:
         "Platform addressing the increasing prevalence of burn-out in teens caused by issues like constant pressure from college admissions and juggling multiple commitments.",
-      category: "",
+      category: "Mobile Development",
       technologies: [
         "Student-led Research",
         "Mental Health",
