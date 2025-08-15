@@ -108,7 +108,7 @@ const TheZine = () => {
     },
     {
       title: "NeuroRest",
-      creator: "",
+      creator: "Ivy, 16",
       description:
         "Platform addressing the increasing prevalence of burn-out in teens caused by issues like constant pressure from college admissions and juggling multiple commitments.",
       category: "",
@@ -124,6 +124,54 @@ const TheZine = () => {
       gradientTo: "to-sage-400",
       image: "/neurorest.png",
       link: "https://www.instagram.com/neuro_rest/",
+    },
+    {
+      title: "Las Cincos Hermanas",
+      creator: "Mia, 16",
+      description:
+        "NYC Community initiative to educate elementary schools on the importance of recycling and environmental problems.",
+      category: "Nonprofit",
+      technologies: [
+        "Community Outreach",
+        "Education",
+        "Environmental Awareness",
+      ],
+      launchDate: "August 2025",
+      impact:
+        "Teaching elementary school students about environmental issues and ways to prevent them from worsening.",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "/cincos_hermanas.png",
+      link: "",
+    },
+    {
+      title: "Healing Hearts",
+      creator: "Crystal, 16",
+      description:
+        "Bringing light and smiles to kids going through cancer through regular volunteer initiatives, so they know they’re not alone.",
+      category: "Nonprofit",
+      technologies: ["Community Outreach", "Volunteering", "Social Work"],
+      launchDate: "August 2025",
+      impact: "Offers comfort and hope to children facing illness.",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "/healing_hearts.png",
+      link: "https://www.instagram.com/heal.inghearts1/",
+    },
+    {
+      title: "",
+      creator: "Shrividya, 17",
+      description:
+        "Educating youth and encouraging them to pursue STEM and wellness.",
+      category: "EdTech",
+      technologies: ["Education", "Resource Curation"],
+      launchDate: "August 2025",
+      impact:
+        "Provides educational materials (books, board games) for elementary and middle school students.",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "/shrividya_stem.png",
+      link: "https://drive.google.com/file/d/1Awb8rHqUT6rqs4g2L_NembpoMFZ3bLI1/view?usp=sharing",
     },
   ];
 
