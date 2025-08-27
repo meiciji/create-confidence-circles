@@ -86,6 +86,20 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
               </Button>
             </a>
+
+            <a
+              href="https://join.slack.com/t/confidencethr-chy7642/shared_invite/zt-3cbso9vb4-4C0gPcnTb5um568eZ7XpaQ"
+              className="w-full sm:w-auto"
+            >
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-sage-500 to-sage-600 hover:from-sage-600 hover:to-sage-700 text-cream-100 px-10 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group w-full"
+              >
+                Join Our Slack Community
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
+              </Button>
+            </a>
+
             <a
               href="https://calendly.com/confidencethroughcreation/30min"
               target="_blank"

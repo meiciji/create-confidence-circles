@@ -123,7 +123,7 @@ const Mission = () => {
               <div className="space-y-6 text-lg text-sage-800 leading-relaxed">
                 <p className="bg-white/80 rounded-2xl p-6 shadow-md">
                   After discovering her voice through social media creation,{" "}
-                  <span className="font-bold text-sage-900">Mel</span> founded{" "}
+                  <span className="font-bold text-sage-900">Mei</span> founded{" "}
                   <span className="font-bold text-sage-900">
                     Confidence Through Creation
                   </span>{" "}

@@ -15,6 +15,10 @@ const Navigation = () => {
     { href: "/the-zine", label: "Project Showcase" },
     { href: "/podcast", label: "Podcast" },
     { href: "/contact", label: "Get Involved" },
+    {
+      href: "https://join.slack.com/t/confidencethr-chy7642/shared_invite/zt-3cbso9vb4-4C0gPcnTb5um568eZ7XpaQ",
+      label: "Join the Slack",
+    },
   ];
 
   const navigateToSection = (href: string) => {
