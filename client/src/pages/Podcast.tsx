@@ -18,14 +18,18 @@ import { useState, useEffect } from "react";
 
 const Podcast = () => {
   useEffect(() => {
-    document.title = "The Confidence Creator Podcast | Confidence Through Creation";
-    
+    document.title =
+      "The Confidence Creator Podcast | Confidence Through Creation";
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Listen to Confidence Conversations, our podcast featuring inspiring stories from young women leaders, entrepreneurs, and change-makers sharing their journeys in technology and creativity.');
+      metaDescription.setAttribute(
+        "content",
+        "Listen to Confidence Conversations, our podcast featuring inspiring stories from young women leaders, entrepreneurs, and change-makers sharing their journeys in technology and creativity.",
+      );
     }
   }, []);
-  
+
   const [playingEpisode, setPlayingEpisode] = useState<number | null>(null);
 
   const episodes = [
@@ -122,14 +126,14 @@ const Podcast = () => {
       bio: "Founder, TikTok creator, and advocate for girls confidence",
     },
     {
-      name: "Maria Santos",
-      role: "Community Manager",
-      bio: "Educator and advocate for underrepresented communities in STEM",
+      name: "Amrutha Akula",
+      role: "Podcast Host",
+      bio: "I’m a junior from Cedar Rapids, Iowa. Fun Fact: I do a form of classical indian dance, Kuchipudi!",
     },
     {
-      name: "Dr. Jennifer Liu",
-      role: "Tech Ethics Researcher",
-      bio: "PhD in Computer Science, specializing in AI ethics and bias",
+      name: "Bryleigh McBride",
+      role: "Podcast Host & Outreach",
+      bio: "I'm a high school sophomore from North Dakota. I love playing the bassoon and meeting new people, and I’m always excited to create meaningful connections.",
     },
   ];
 

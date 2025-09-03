@@ -67,7 +67,7 @@ const OurTeam = () => {
       gradientTo: "to-mint-300",
     },
     {
-      name: "Bryleigh",
+      name: "Bryleigh McBride",
       role: "Outreach and Impact Director",
       bio: "Hi! I’m Bryleigh, a high school sophomore from North Dakota. I love playing the bassoon and meeting new people, and I’m always excited to create meaningful connections.",
       image: "/Bryleigh_Photo.jpg",
