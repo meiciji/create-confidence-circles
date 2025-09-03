@@ -69,6 +69,17 @@ const Navigation = () => {
                   >
                     {item.label}
                   </button>
+                ) : item.href.startsWith("http") ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsOpen(false)}
+                    className="text-sage-700 hover:text-sage-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  >
+                    {item.label}
+                  </a>
                 ) : (
                   <Link
                     key={item.href}
@@ -119,6 +130,17 @@ const Navigation = () => {
                   >
                     {item.label}
                   </button>
+                ) : item.href.startsWith("http") ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsOpen(false)}
+                    className="text-sage-700 hover:text-sage-900 block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    {item.label}
+                  </a>
                 ) : (
                   <Link
                     key={item.href}
