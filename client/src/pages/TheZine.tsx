@@ -156,6 +156,38 @@ const TheZine = () => {
       image: "/shrividya_stem.png",
       link: "https://drive.google.com/file/d/1Awb8rHqUT6rqs4g2L_NembpoMFZ3bLI1/view?usp=sharing",
     },
+    {
+      title: "Financial Boost",
+      creator: "Fedora Joseph",
+      description:
+        "Nonprofit workshops about personal finance, financial literacy, and how to secure your money targeted to immigrant families.",
+      category: "Nonprofit",
+      technologies: ["Educational Workshops", "Financial Literacy"],
+      launchDate: "September 2025",
+      impact: "",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/financial-boost.png",
+      link: "https://www.instagram.com/financialboost__/",
+    },
+    {
+      title: "The BioMed Diaries",
+      creator: "Haniyah Anver Sathic",
+      description:
+        "Blog about breaking into biotech/biomedical engineering field, because there are limited resources and opportunities for high schoolers/undergrads in biomedical science, biotechnology, and bioinformatics.",
+      category: "Nonprofit",
+      technologies: [
+        "Educational Blog",
+        "Biotech Resources",
+        "Biomedical Science",
+      ],
+      launchDate: "April 2025",
+      impact: "",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/biomed.png",
+      link: "https://www.instagram.com/thebiomeddiary/",
+    },
   ];
 
   const categories = [
