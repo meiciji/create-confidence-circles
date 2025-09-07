@@ -37,7 +37,7 @@ const TheZine = () => {
     },
     {
       title: "Financial Boost",
-      creator: "Priya, 17",
+      creator: "Fedora, 17",
       description:
         "An organization dedicated to hosting workshops about personal finance, financial literacy, and how to secure your money for immigrant families.",
       category: "Nonprofit",
@@ -87,7 +87,7 @@ const TheZine = () => {
       gradientFrom: "from-sage-400",
       gradientTo: "to-mint-300",
       image: "/steminist.png",
-      link: "https://www.steminststudyhub.com",
+      link: "https://www.instagram.com/shedesirestobemd/",
     },
     {
       title: "NeuroRest",
@@ -167,7 +167,7 @@ const TheZine = () => {
         "Biotech Resources",
         "Biomedical Science",
       ],
-      launchDate: "April 2025",
+      launchDate: "September 2025",
       impact: "",
       gradientFrom: "from-mint-300",
       gradientTo: "to-sage-300",
