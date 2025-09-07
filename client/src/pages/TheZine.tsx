@@ -157,20 +157,6 @@ const TheZine = () => {
       link: "https://drive.google.com/file/d/1Awb8rHqUT6rqs4g2L_NembpoMFZ3bLI1/view?usp=sharing",
     },
     {
-      title: "Financial Boost",
-      creator: "Fedora Joseph",
-      description:
-        "Nonprofit workshops about personal finance, financial literacy, and how to secure your money targeted to immigrant families.",
-      category: "Nonprofit",
-      technologies: ["Educational Workshops", "Financial Literacy"],
-      launchDate: "September 2025",
-      impact: "",
-      gradientFrom: "from-mint-300",
-      gradientTo: "to-sage-300",
-      image: "/financial-boost.png",
-      link: "https://www.instagram.com/financialboost__/",
-    },
-    {
       title: "The BioMed Diaries",
       creator: "Haniyah Anver Sathic",
       description:
