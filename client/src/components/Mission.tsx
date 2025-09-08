@@ -89,7 +89,8 @@ const Mission = () => {
                       Leadership Gap
                     </div>
                     <p className="text-soft-700 font-medium">
-                      Even in female-driven industries, leadership remains male-dominated
+                      Even in female-driven industries, leadership remains
+                      male-dominated
                     </p>
                   </div>
                 </div>
@@ -101,7 +102,7 @@ const Mission = () => {
                   <h4 className="text-2xl font-bold text-sage-900 text-center mb-6">
                     Our Community
                   </h4>
-                  
+
                   {/* Photo Grid */}
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-4">
@@ -137,12 +138,12 @@ const Mission = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <p className="text-sage-700 text-center mt-6 font-medium">
                     Empowering the next generation of female leaders
                   </p>
                 </div>
-                
+
                 {/* Decorative elements */}
                 <div className="absolute -top-6 -right-6 w-20 h-20 bg-sage-300/30 rounded-full blur-2xl"></div>
                 <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-mint-300/20 rounded-full blur-3xl"></div>
@@ -176,18 +177,41 @@ const Mission = () => {
               </h3>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Photo Section */}
+                {/* Photo Section - Multiple Founder Images */}
                 <div className="relative">
-                  <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
-                    <img
-                      src="/MeiYing_Tham_Photo.jpg"
-                      alt="Mei Ying Tham, Founder of Confidence Through Creation"
-                      className="w-full h-80 object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 to-transparent"></div>
-                    <div className="absolute bottom-6 left-6 text-white">
-                      <p className="text-sm font-medium opacity-90">Founder</p>
-                      <p className="text-lg font-bold">Mei Ying Tham</p>
+                  <div className="grid grid-cols-2 gap-4">
+                    {/* Main Founder Photo */}
+                    <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
+                      <img
+                        src="/MeiYing_Tham_Photo.jpg"
+                        alt="Mei Ying Tham, Founder of Confidence Through Creation"
+                        className="w-full h-80 object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 to-transparent"></div>
+                      <div className="absolute bottom-6 left-6 text-white">
+                        <p className="text-sm font-medium opacity-90">Founder</p>
+                        <p className="text-lg font-bold">Mei Ying Tham</p>
+                      </div>
+                    </div>
+
+                    {/* Second Founder Photo */}
+                    <div className="space-y-4">
+                      <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
+                        <img
+                          src="/interview.png"
+                          alt="Mei Ying Tham in interview setting"
+                          className="w-full h-36 object-cover"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-mint-900/20 to-transparent"></div>
+                      </div>
+
+                      {/* Founder Quote/Message */}
+                      <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
+                        <div className="text-sage-800 text-sm leading-relaxed">
+                          <p className="font-medium mb-2">Mei's Vision:</p>
+                          <p className="italic">"Every girl deserves to see herself as a creator and leader."</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   
@@ -199,7 +223,8 @@ const Mission = () => {
                 {/* Text Section */}
                 <div className="space-y-6 text-lg text-sage-800 leading-relaxed">
                   <p className="bg-white/80 rounded-2xl p-6 shadow-md">
-                    After discovering her voice through social media creation,{" "}
+                    After discovering her voice through social media creation
+                    and being featured on the New York Post,{" "}
                     <span className="font-bold text-sage-900">Mei</span> founded{" "}
                     <span className="font-bold text-sage-900">
                       Confidence Through Creation
@@ -212,10 +237,14 @@ const Mission = () => {
                     Whether through{" "}
                     <span className="font-semibold text-sage-700">tech</span>,{" "}
                     <span className="font-semibold text-mint-700">art</span>,{" "}
-                    <span className="font-semibold text-soft-700">business</span>,
-                    or <span className="font-semibold text-sage-700">media</span>,
-                    CTC helps young creators turn ideas into real-world impact and
-                    connects that process to access, equity, and systemic change.
+                    <span className="font-semibold text-soft-700">
+                      business
+                    </span>
+                    , or{" "}
+                    <span className="font-semibold text-sage-700">media</span>,
+                    CTC helps young creators turn ideas into real-world impact
+                    and connects that process to access, equity, and systemic
+                    change.
                   </p>
                 </div>
               </div>
