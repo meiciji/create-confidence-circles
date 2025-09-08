@@ -184,13 +184,15 @@ const Mission = () => {
                     <div className="relative w-4/5 ml-auto">
                       <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
                         <img
-                          src="/MeiYing_Tham_Photo.jpg"
+                          src="/nypost.png"
                           alt="Mei Ying Tham, Founder of Confidence Through Creation"
                           className="w-full h-48 sm:h-64 object-cover"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-sage-900/30 to-transparent"></div>
                         <div className="absolute bottom-4 left-4 text-white">
-                          <p className="text-xs font-medium opacity-90">Founder</p>
+                          <p className="text-xs font-medium opacity-90">
+                            Founder
+                          </p>
                           <p className="text-sm font-bold">Mei Ying Tham</p>
                         </div>
                       </div>
@@ -206,7 +208,9 @@ const Mission = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-mint-900/30 to-transparent"></div>
                         <div className="absolute bottom-4 left-4 text-white">
-                          <p className="text-xs font-medium opacity-90">Interview</p>
+                          <p className="text-xs font-medium opacity-90">
+                            Interview
+                          </p>
                           <p className="text-sm font-bold">Featured Story</p>
                         </div>
                       </div>
