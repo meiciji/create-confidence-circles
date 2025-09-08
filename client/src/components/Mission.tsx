@@ -177,34 +177,38 @@ const Mission = () => {
               </h3>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Photo Section - Multiple Founder Images */}
+                {/* Photo Section - Staggered Founder Images */}
                 <div className="relative">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="space-y-8">
                     {/* Main Founder Photo */}
-                    <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
-                      <img
-                        src="/MeiYing_Tham_Photo.jpg"
-                        alt="Mei Ying Tham, Founder of Confidence Through Creation"
-                        className="w-full h-64 sm:h-80 object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-sage-900/30 to-transparent"></div>
-                      <div className="absolute bottom-4 left-4 text-white">
-                        <p className="text-xs font-medium opacity-90">Founder</p>
-                        <p className="text-sm font-bold">Mei Ying Tham</p>
+                    <div className="relative w-4/5 ml-auto">
+                      <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
+                        <img
+                          src="/MeiYing_Tham_Photo.jpg"
+                          alt="Mei Ying Tham, Founder of Confidence Through Creation"
+                          className="w-full h-48 sm:h-64 object-cover"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-sage-900/30 to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 text-white">
+                          <p className="text-xs font-medium opacity-90">Founder</p>
+                          <p className="text-sm font-bold">Mei Ying Tham</p>
+                        </div>
                       </div>
                     </div>
 
                     {/* Second Founder Photo */}
-                    <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
-                      <img
-                        src="/interview.png"
-                        alt="Mei Ying Tham in interview setting"
-                        className="w-full h-64 sm:h-80 object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-mint-900/30 to-transparent"></div>
-                      <div className="absolute bottom-4 left-4 text-white">
-                        <p className="text-xs font-medium opacity-90">Interview</p>
-                        <p className="text-sm font-bold">Featured Story</p>
+                    <div className="relative w-4/5 mr-auto">
+                      <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
+                        <img
+                          src="/interview.png"
+                          alt="Mei Ying Tham in interview setting"
+                          className="w-full h-48 sm:h-64 object-cover"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-mint-900/30 to-transparent"></div>
+                        <div className="absolute bottom-4 left-4 text-white">
+                          <p className="text-xs font-medium opacity-90">Interview</p>
+                          <p className="text-sm font-bold">Featured Story</p>
+                        </div>
                       </div>
                     </div>
                   </div>
