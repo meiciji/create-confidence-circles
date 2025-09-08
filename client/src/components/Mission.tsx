@@ -115,7 +115,7 @@ const Mission = () => {
                       </div>
                       <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-all duration-300">
                         <img
-                          src="/Amrutha_Photo.png"
+                          src="/angela.png"
                           alt="Community member Amrutha"
                           className="w-full h-24 object-cover"
                         />
@@ -131,7 +131,7 @@ const Mission = () => {
                       </div>
                       <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-all duration-300">
                         <img
-                          src="/Zainab_Photo.jpg"
+                          src="/mia.png"
                           alt="Community member Zainab"
                           className="w-full h-32 object-cover"
                         />
@@ -177,44 +177,21 @@ const Mission = () => {
               </h3>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Photo Section - Multiple Founder Images */}
+                {/* Photo Section */}
                 <div className="relative">
-                  <div className="grid grid-cols-2 gap-4">
-                    {/* Main Founder Photo */}
-                    <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
-                      <img
-                        src="/MeiYing_Tham_Photo.jpg"
-                        alt="Mei Ying Tham, Founder of Confidence Through Creation"
-                        className="w-full h-80 object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 to-transparent"></div>
-                      <div className="absolute bottom-6 left-6 text-white">
-                        <p className="text-sm font-medium opacity-90">Founder</p>
-                        <p className="text-lg font-bold">Mei Ying Tham</p>
-                      </div>
-                    </div>
-
-                    {/* Second Founder Photo */}
-                    <div className="space-y-4">
-                      <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
-                        <img
-                          src="/interview.png"
-                          alt="Mei Ying Tham in interview setting"
-                          className="w-full h-36 object-cover"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-mint-900/20 to-transparent"></div>
-                      </div>
-
-                      {/* Founder Quote/Message */}
-                      <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
-                        <div className="text-sage-800 text-sm leading-relaxed">
-                          <p className="font-medium mb-2">Mei's Vision:</p>
-                          <p className="italic">"Every girl deserves to see herself as a creator and leader."</p>
-                        </div>
-                      </div>
+                  <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
+                    <img
+                      src="/interview.png"
+                      alt="Mei Ying Tham, Founder of Confidence Through Creation"
+                      className="w-full h-80 object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-sage-900/20 to-transparent"></div>
+                    <div className="absolute bottom-6 left-6 text-white">
+                      <p className="text-sm font-medium opacity-90">Founder</p>
+                      <p className="text-lg font-bold">Mei Ying Tham</p>
                     </div>
                   </div>
-                  
+
                   {/* Decorative elements */}
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-sage-200 rounded-full blur-2xl opacity-60"></div>
                   <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-mint-200 rounded-full blur-3xl opacity-40"></div>
