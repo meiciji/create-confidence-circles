@@ -174,6 +174,70 @@ const TheZine = () => {
       image: "/biomed.png",
       link: "https://www.instagram.com/thebiomeddiary/",
     },
+    {
+      title: "Little Lights Project ",
+      creator: "Ghazal G. & Sochima M. ",
+      description:
+        "A student-led nonprofit designed to uplift pediatric children through care-driven projects.",
+      category: "Nonprofit",
+      technologies: ["Social Work", "Creative Projects"],
+      launchDate: "July 2025",
+      impact: "",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/little-lights.png",
+      link: "https://www.instagram.com/little.lights.project?igsh=enF5NXZ0M2ozZmE3",
+    },
+    {
+      title: "Published in TNS World News",
+      creator: "Fatimah Ahmed",
+      description:
+        "As part of the mental health initiative she launched with CTC, Fatimah wrote an article on gender inequality and patriarchal norms in Pakistan, which was published in the capital’s newspaper.",
+      category: "Newspaper Article",
+      technologies: [
+        "Mental Health Awareness",
+        "Gender Equality",
+        "Article Writing",
+      ],
+      launchDate: "August 2025",
+      impact: "Raising awareness on the struggles of women in Pakistan.",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/tns.png",
+      link: "https://tns.world/?p=122727",
+    },
+    {
+      title: "The Environmental Society",
+      creator: "Aadhya Naik",
+      description:
+        "Independently run, The Environmental Society (TES) is a Mumbai-based, youth-led eco-community/magazine rooted in resilience, renewal, and responsibility. From grassroots initiatives to creative climate advocacy, TES nurtures not just an environmental movement, but a generation unafraid to lead it.",
+      category: "Community Platform",
+      technologies: [
+        "Environmental Awareness",
+        "Community Building",
+        "Climate Advocacy",
+      ],
+      launchDate: "June 2025",
+      impact:
+        " A sanctuary for young visionaries and changemakers, TES provides a collective ground where passion meets purpose-where awareness grows into action, and small seeds of effort blossom into lasting impact.",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "/env-society.png",
+      link: "https://www.instagram.com/thenvironmentalsociety?igsh=MTBwNzN5Mm1vNGt6ZA==",
+    },
+    {
+      title: "The STEM Life",
+      creator: "",
+      description: "",
+      category: "EdTech",
+      technologies: ["Educational Podcast", "Resource Curation"],
+      launchDate: "",
+      impact: "",
+      gradientFrom: "from-mint-400",
+      gradientTo: "to-sage-400",
+      image: "",
+      link: "",
+    },
   ];
 
   const categories = [
