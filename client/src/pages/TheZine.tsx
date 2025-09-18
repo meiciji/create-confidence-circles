@@ -343,15 +343,15 @@ const TheZine = () => {
             <Card className="bg-white/90 backdrop-blur-sm border-sage-200 text-center">
               <CardContent className="p-8">
                 <div className="text-3xl font-bold text-sage-900 mb-2">
-                  5,000+
+                  40,000+
                 </div>
-                <div className="text-sage-600">Lives Impacted</div>
+                <div className="text-sage-600">People Reached</div>
               </CardContent>
             </Card>
             <Card className="bg-white/90 backdrop-blur-sm border-sage-200 text-center">
               <CardContent className="p-8">
-                <div className="text-3xl font-bold text-sage-900 mb-2">15</div>
-                <div className="text-sage-600">Awards Won</div>
+                <div className="text-3xl font-bold text-sage-900 mb-2">60+</div>
+                <div className="text-sage-600">Girls Mentored</div>
               </CardContent>
             </Card>
           </div>

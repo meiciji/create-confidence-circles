@@ -126,7 +126,7 @@ const Hero = () => {
                   <Users className="h-8 w-8 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-sage-900 mb-2 group-hover:text-sage-700 transition-colors">
-                  500+
+                  40,000+
                 </div>
                 <div className="text-sage-700 text-sm font-medium">
                   Girls Empowered
@@ -160,10 +160,10 @@ const Hero = () => {
                   <Heart className="h-8 w-8 text-white animate-pulse" />
                 </div>
                 <div className="text-3xl font-bold text-soft-900 mb-2 group-hover:text-soft-700 transition-colors">
-                  95%
+                  7
                 </div>
                 <div className="text-soft-700 text-sm font-medium">
-                  Confidence Increase
+                  Countries Reached
                 </div>
               </div>
             </div>
