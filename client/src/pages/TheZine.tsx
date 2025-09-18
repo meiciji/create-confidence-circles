@@ -220,8 +220,8 @@ const TheZine = () => {
       launchDate: "June 2025",
       impact:
         " A sanctuary for young visionaries and changemakers, TES provides a collective ground where passion meets purpose-where awareness grows into action, and small seeds of effort blossom into lasting impact.",
-      gradientFrom: "from-mint-400",
-      gradientTo: "to-sage-400",
+      gradientFrom: "from-sage-400",
+      gradientTo: "to-mint-300",
       image: "/env-society.png",
       link: "https://www.instagram.com/thenvironmentalsociety?igsh=MTBwNzN5Mm1vNGt6ZA==",
     },
@@ -237,6 +237,36 @@ const TheZine = () => {
       gradientTo: "to-sage-400",
       image: "",
       link: "",
+    },
+    {
+      title: "Pulse Project",
+      creator: "Aryana Boyer",
+      description:
+        "Dancing with purpose! We host workshops on singing, dancing, and choreography to fundraise for families through GraceWay Village.",
+      category: "Community Platform",
+      technologies: ["Creative Workshops", "Fundraising", "Community Building"],
+      launchDate: "September 2025",
+      impact:
+        "A youth-led initiative providing food, clothing, and resources to families in need through GraceWay Village by donating funds raised through workshops and performances.",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/pulse-project.png",
+      link: "https://www.instagram.com/pulse_project09/",
+    },
+    {
+      title: "Her Vogue Grid",
+      creator: "Anna",
+      description:
+        "Her Vogue Grid is a teen-led digital magazine and community, where fashion meets business insight and Gen Z culture. A space built by young women, for young women—bold, intelligent, and forward-thinking.",
+      category: "Community Platform",
+      technologies: ["Youth-led Initiative", "Fashion and the Arts"],
+      launchDate: "April 2025",
+      impact:
+        "Providing a space that empowers women through business and fashion.",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-400",
+      image: "/vogue-grid.png",
+      link: "https://www.instagram.com/hervoguegrid/",
     },
   ];
 
