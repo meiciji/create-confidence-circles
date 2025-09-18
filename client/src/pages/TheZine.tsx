@@ -268,6 +268,18 @@ const TheZine = () => {
       image: "/vogue-grid.png",
       link: "https://www.instagram.com/hervoguegrid/",
     },
+    {
+      title: "The STEM Life",
+      creator: "Anantika, 16",
+      description:
+        "A fun and engaging podcast that makes STEM exciting and easy to understand. We break down complex topics, answer curious questions, and add a dose of humor to keep things entertaining for all listeners.",
+      category: "Podcast",
+      launchDate: "Aug 2025",
+      gradientFrom: "from-mint-300",
+      gradientTo: "to-sage-300",
+      image: "/thestemlife.png",
+      link: "https://www.thestemlife.org/home",
+    },
   ];
 
   const categories = [
