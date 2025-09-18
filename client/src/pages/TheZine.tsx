@@ -226,19 +226,6 @@ const TheZine = () => {
       link: "https://www.instagram.com/thenvironmentalsociety?igsh=MTBwNzN5Mm1vNGt6ZA==",
     },
     {
-      title: "The STEM Life",
-      creator: "",
-      description: "",
-      category: "EdTech",
-      technologies: ["Educational Podcast", "Resource Curation"],
-      launchDate: "",
-      impact: "",
-      gradientFrom: "from-mint-400",
-      gradientTo: "to-sage-400",
-      image: "",
-      link: "",
-    },
-    {
       title: "Pulse Project",
       creator: "Aryana Boyer",
       description:
@@ -273,7 +260,7 @@ const TheZine = () => {
       creator: "Anantika, 16",
       description:
         "A fun and engaging podcast that makes STEM exciting and easy to understand. We break down complex topics, answer curious questions, and add a dose of humor to keep things entertaining for all listeners.",
-      category: "Podcast",
+      category: "Educational Podcast",
       launchDate: "Aug 2025",
       gradientFrom: "from-mint-300",
       gradientTo: "to-sage-300",
